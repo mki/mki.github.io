@@ -1,0 +1,42 @@
+html, body, .container, #dashboard, #dashboard .list, .list-body, .list-row {
+  height: 100%;
+}
+
+h3 {
+  margin-top: 2rem;
+}
+
+[class*="list-head"] {
+  background-color: gray;
+  color: #ffffff;
+}
+[class*="list-body"] {
+  padding: 1rem;
+  margin: 0;
+}
+.float-left {
+  float: left;
+}
+/*[class*="card-"] {*/
+  /*float: left;*/
+/*}*/
+.card {
+  overflow: hidden;
+}
+.list-row {
+  background-color: lightgray;
+}
+.card-image {
+  width: 100px;
+}
+.card-avatar {
+  min-width: 100px;
+  min-height: 100px;
+  text-align: center;
+}
+.card-avatar span{
+  font-size: 60px;
+}
+.card-inf{
+  margin-left: 10px;
+}
