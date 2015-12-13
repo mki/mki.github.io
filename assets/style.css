@@ -13,6 +13,7 @@ h3 {
 [class*="list-body"] {
   padding: 1rem;
   margin: 0;
+  min-height: 200px;
 }
 .float-left {
   float: left;
